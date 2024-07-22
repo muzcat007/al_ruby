@@ -1,0 +1,1 @@
+require_relative '../../lib/activerecord/with_advisory_lock'

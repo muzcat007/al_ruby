@@ -1,0 +1,12 @@
+default: &default
+  connect_timeout: 5
+  adapter: postgresql
+  port: 5432
+  encoding: unicode
+  host: localhost
+  database: al_test
+  username: al_test
+  password: al_test
+
+development:
+  <<: *default
